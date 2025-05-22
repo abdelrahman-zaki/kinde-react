@@ -36,6 +36,7 @@ export default function LoggedIn() {
                 {user?.givenName} {user?.familyName}
               </p>
               <LogoutLink className="text-subtle">Sign out(LogoutLink)</LogoutLink>
+              <br />
               <button className="text-subtle" onClick={() => logout()}>
                 Sign out
               </button>
